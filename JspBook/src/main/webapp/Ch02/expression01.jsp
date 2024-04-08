@@ -7,18 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-hello
-<%!
-	int count=3;
-	String makeItLower(String data){
-	return data.toLowerCase();
-}
-%>
-<%
-	for(int i=1;i<=count;i++){
-		out.println("java sever pages"+i+"<br>");
-	}
-%>
-<%= makeItLower("Hello World") %>
+<p>
+Today's date;
+<%= new java.util.Date() %></p>
 </body>
 </html>
